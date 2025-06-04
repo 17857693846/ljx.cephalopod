@@ -1,0 +1,7 @@
+Model,Avg_R2,Avg_MSE,Avg_ExplainedVar,Parameters
+RF,0.11648443695049104,1.3290285612873138,0.1255442497790746,"{'n_estimators': 300, 'max_depth': 20, 'min_samples_split': 5, 'min_samples_leaf': 2}"
+XGB,0.0016832503767486128,1.4942318273821251,0.008378840085250961,"{'n_estimators': 400, 'learning_rate': 0.05, 'max_depth': 7, 'subsample': 0.8}"
+GBDT,-0.022391620339054598,1.5276593112098953,-0.015509486286614194,"{'n_estimators': 300, 'learning_rate': 0.05, 'max_depth': 5, 'min_samples_split': 5}"
+ANN,0.13507933101856243,1.3127247499735017,0.14785589235347937,"{'hidden_layer_sizes': (20, 20), 'activation': 'logistic', 'alpha': 0.01, 'solver': 'adam', 'max_iter': 1000}"
+KNN,0.07009931848081656,1.399228373249996,0.07720925234562048,"{'n_neighbors': 7, 'weights': 'distance', 'p': 2}"
+SVM,0.01586072432617407,1.4847658405266984,0.05573752002057637,"{'C': 5, 'epsilon': 0.1, 'kernel': 'rbf'}"
